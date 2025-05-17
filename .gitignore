@@ -32,3 +32,19 @@ artifacts/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# ASP.NET Core ile ilgili dosyalar
+appsettings.Development.json
+appsettings.*.json
+secrets.json
+
+# Kullanıcı gizli dosyaları
+Properties/launchSettings.json
+
+# IIS ayarları
+.vs/
+*.vspscc
+*.vssscc
+
+# Publish çıktıları
+publish/
