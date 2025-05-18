@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Save Image";
+}
+
+<h2>Save Image</h2>
+<p>
+    <a asp-controller="Home" asp-action="SaveImage">Ana sayfaya dön</a>
+</p>
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label for="file">Resim Seçiniz:</label>
+        <input type="file" id="file" name="file" accept="image/*" required />
+    </div>
+    <div>
+        <button type="submit">Kaydet</button>
+    </div>
+</form>
